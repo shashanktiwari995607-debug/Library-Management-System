@@ -16,7 +16,9 @@ The system includes full authentication, real-time inventory updates, background
 
 ✔ Servlet–JSP Web Integration (MVC)
 
+
 ✨ Features
+
 🔐 User Authentication
 
 -Secure login system for Librarian
@@ -52,6 +54,7 @@ The system includes full authentication, real-time inventory updates, background
 
 -Manage active/inactive status
 
+
 🔄 Issue / Return System
 
 -Issue books to members
@@ -64,6 +67,7 @@ The system includes full authentication, real-time inventory updates, background
 
 -Maintain full transaction history
 
+
 📊 Reports & Dashboard
 
 -Total books, issued books, available books
@@ -73,6 +77,7 @@ The system includes full authentication, real-time inventory updates, background
 -Issue/Return logs
 
 -Low-stock alerts
+
 
 🔧 Technical Highlights (Rubric Coverage)
 
@@ -88,6 +93,7 @@ The system includes full authentication, real-time inventory updates, background
 
 -Multithreading: A background thread sends low-stock alerts
 
+
 ✔ Database Integration
 
 -Proper DAO Pattern
@@ -97,6 +103,7 @@ The system includes full authentication, real-time inventory updates, background
 -Connection pooling (optional)
 
 -Full CRUD operations
+
 
 ✔ Servlets & Web Integration 
 
@@ -111,6 +118,7 @@ The system includes full authentication, real-time inventory updates, background
 -Session tracking
 
 -Form validation
+
 
 🛠 Technologies Used
 Backend
@@ -140,6 +148,7 @@ Backend
 -Server
 
 -Apache Tomcat (8/9/10)
+
 
 🚀 How to Run
 
