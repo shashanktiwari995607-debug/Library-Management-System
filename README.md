@@ -8,8 +8,6 @@ This project demonstrates proper MVC architecture, OOP principles, database inte
 This Library Management System allows librarians to manage books, members, and book transactions such as issue/return operations.
 The system includes full authentication, real-time inventory updates, background tasks, DAO structure, and clean separation of concerns.
 
-Designed according to Review 1 marking rubric, ensuring maximum marks in:
-
 ✔ Problem Understanding & Solution Design
 ✔ Core Java Concepts (OOP, Interfaces, Collections, Exception Handling)
 ✔ Database Integration (JDBC + DAO Layer)
