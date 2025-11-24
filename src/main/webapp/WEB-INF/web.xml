@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <display-name>LibraryManagementSystem</display-name>
+
+    <!-- ===================== -->
+    <!--      SERVLET MAPPING  -->
+    <!-- ===================== -->
+
+    <servlet>
+        <servlet-name>AddBookServlet</servlet-name>
+        <servlet-class>com.lms.servlet.AddBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBookServlet</servlet-name>
+        <url-pattern>/AddBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewBooksServlet</servlet-name>
+        <servlet-class>com.lms.servlet.ViewBooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewBooksServlet</servlet-name>
+        <url-pattern>/ViewBooksServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BorrowBookServlet</servlet-name>
+        <servlet-class>com.lms.servlet.BorrowBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowBookServlet</servlet-name>
+        <url-pattern>/BorrowBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReturnBookServlet</servlet-name>
+        <servlet-class>com.lms.servlet.ReturnBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnBookServlet</servlet-name>
+        <url-pattern>/ReturnBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteBookServlet</servlet-name>
+        <servlet-class>com.lms.servlet.DeleteBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteBookServlet</servlet-name>
+        <url-pattern>/DeleteBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.lms.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
