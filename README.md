@@ -27,6 +27,7 @@ The system includes full authentication, real-time inventory updates, background
 
 
 📚 Book Management
+
 -Add new books
 
 -Update book information
@@ -40,6 +41,7 @@ The system includes full authentication, real-time inventory updates, background
 -Backend validation & error handling
 
 👤 Member Management
+
 -Register new members
 
 -Update member details
@@ -51,6 +53,7 @@ The system includes full authentication, real-time inventory updates, background
 -Manage active/inactive status
 
 🔄 Issue / Return System
+
 -Issue books to members
 
 -Check availability before issuing
@@ -62,6 +65,7 @@ The system includes full authentication, real-time inventory updates, background
 -Maintain full transaction history
 
 📊 Reports & Dashboard
+
 -Total books, issued books, available books
 
 -Member count
@@ -73,6 +77,7 @@ The system includes full authentication, real-time inventory updates, background
 🔧 Technical Highlights (Rubric Coverage)
 
 ✔ Core Java Concepts 
+
 -OOP: Inheritance, Polymorphism, Encapsulation
 
 -Interfaces: Repository interfaces for DAO
@@ -84,6 +89,7 @@ The system includes full authentication, real-time inventory updates, background
 -Multithreading: A background thread sends low-stock alerts
 
 ✔ Database Integration
+
 -Proper DAO Pattern
 
 -PreparedStatement (SQL Injection safe)
@@ -93,6 +99,7 @@ The system includes full authentication, real-time inventory updates, background
 -Full CRUD operations
 
 ✔ Servlets & Web Integration 
+
 -MVC structure
 
 -JSP for UI
@@ -121,6 +128,7 @@ Backend
 -OOP principles
 
 -Frontend
+
 -HTML5
 
 -CSS3
@@ -134,6 +142,7 @@ Backend
 -Apache Tomcat (8/9/10)
 
 🚀 How to Run
+
 1. Prerequisites
 -Java JDK 8 or higher
 
