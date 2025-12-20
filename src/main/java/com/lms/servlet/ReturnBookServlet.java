@@ -20,6 +20,10 @@ public class ReturnBookServlet extends HttpServlet {
 
         int txnId = Integer.parseInt(request.getParameter("txnId"));
         int bookId = Integer.parseInt(request.getParameter("bookId"));
+        if (txnId <= 0 || bookId <= 0) {
+        response.sendRedirect("jsp/returnBook.jsp?error=invalid");
+        return;
+    }
 
         txnDAO.returnBook(txnId);
 
