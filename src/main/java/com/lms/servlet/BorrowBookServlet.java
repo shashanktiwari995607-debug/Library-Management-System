@@ -20,7 +20,10 @@ public class BorrowBookServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         int bookId = Integer.parseInt(request.getParameter("bookId"));
         int memberId = Integer.parseInt(request.getParameter("memberId"));
-
+        if (bookId <= 0 || memberId <= 0) {
+        response.sendRedirect("jsp/borrowBook.jsp?error=invalid");
+        return;
+    }
         Date borrow = new Date(System.currentTimeMillis());
         Date due = Date.valueOf(borrow.toLocalDate().plusDays(7));
 
