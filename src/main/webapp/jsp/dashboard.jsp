@@ -20,7 +20,15 @@
 <nav class="navbar navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand">Library Dashboard</a>
-        <span class="text-white">Welcome, <%= m.getName() %></span>
+
+        <div>
+            <span class="text-white me-3">
+                Welcome, <%= m.getName() %>
+            </span>
+            <a href="../LogoutServlet" class="btn btn-danger btn-sm">
+                Logout
+            </a>
+        </div>
     </div>
 </nav>
 
