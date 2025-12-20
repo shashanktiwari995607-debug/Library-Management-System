@@ -15,6 +15,14 @@
 
 <div class="container mt-4">
     <h2>All Books</h2>
+<form action="../SearchBookServlet" method="get" class="mb-3">
+    <input type="text"
+           name="keyword"
+           class="form-control"
+           placeholder="Search by title or author"
+           required>
+</form>
+
 
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
