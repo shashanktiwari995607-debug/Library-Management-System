@@ -8,9 +8,10 @@
     <display-name>LibraryManagementSystem</display-name>
 
     <!-- ===================== -->
-    <!--      SERVLET MAPPING  -->
+    <!--      SERVLETS         -->
     <!-- ===================== -->
 
+    <!-- Add Book -->
     <servlet>
         <servlet-name>AddBookServlet</servlet-name>
         <servlet-class>com.lms.servlet.AddBookServlet</servlet-class>
@@ -20,6 +21,7 @@
         <url-pattern>/AddBookServlet</url-pattern>
     </servlet-mapping>
 
+    <!-- View Books -->
     <servlet>
         <servlet-name>ViewBooksServlet</servlet-name>
         <servlet-class>com.lms.servlet.ViewBooksServlet</servlet-class>
@@ -29,6 +31,7 @@
         <url-pattern>/ViewBooksServlet</url-pattern>
     </servlet-mapping>
 
+    <!-- Borrow Book -->
     <servlet>
         <servlet-name>BorrowBookServlet</servlet-name>
         <servlet-class>com.lms.servlet.BorrowBookServlet</servlet-class>
@@ -38,6 +41,7 @@
         <url-pattern>/BorrowBookServlet</url-pattern>
     </servlet-mapping>
 
+    <!-- Return Book -->
     <servlet>
         <servlet-name>ReturnBookServlet</servlet-name>
         <servlet-class>com.lms.servlet.ReturnBookServlet</servlet-class>
@@ -47,6 +51,7 @@
         <url-pattern>/ReturnBookServlet</url-pattern>
     </servlet-mapping>
 
+    <!-- Delete Book -->
     <servlet>
         <servlet-name>DeleteBookServlet</servlet-name>
         <servlet-class>com.lms.servlet.DeleteBookServlet</servlet-class>
@@ -56,6 +61,7 @@
         <url-pattern>/DeleteBookServlet</url-pattern>
     </servlet-mapping>
 
+    <!-- Login -->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.lms.servlet.LoginServlet</servlet-class>
@@ -63,6 +69,26 @@
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Search Book -->
+    <servlet>
+        <servlet-name>SearchBookServlet</servlet-name>
+        <servlet-class>com.lms.servlet.SearchBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchBookServlet</servlet-name>
+        <url-pattern>/SearchBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Logout -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.lms.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
     </servlet-mapping>
 
 </web-app>
